@@ -115,6 +115,13 @@ Resource: [Mod 0 Foundation](https://mod0.turing.io)
         supper: "8:00 PM"
       }
       ```
+    - Shortcuts that I would practice with my Environment:
+      - [Mac](https://macmost.com/printable-mac-keyboard-shortcut-page-for-macos-catalina.html)
+      - [Spectacle - windows management](https://www.howtogeek.com/288124/how-to-rearrange-your-macs-windows-with-a-keyboard-shorcut/)
+      - [Atom - Text Editor for Coding](https://www.bugsnag.com/blog/atom-editor-cheat-sheet)
+      - [Mac Terminal](https://www.muo.com/tag/mac-terminal-commands-cheat-sheet/)
+      - [Mac Chrome](https://i.pinimg.com/originals/40/dd/f9/40ddf9e7b7c28b6d892e8f3e04b449ff.png)
+      - [Mac Chrome DEV TOOLS](https://i.stack.imgur.com/vx2Zs.png)
 - [X] [Session 2](https://mod0.turing.io/session2/) and its [homework](https://gist.github.com/ericweissman/3e420f4c0290ed72b3881a45c8332b5e)
   - This covered:
     - Diving into `classes` with `attributes` and `methods`
