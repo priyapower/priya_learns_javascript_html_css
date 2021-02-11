@@ -129,6 +129,55 @@ Resource: [Mod 0 Foundation](https://mod0.turing.io)
     - Practicing using Command Line with Terminal
     - The basics of Git and version control
   - **This was completed during my time as a Turing student**
+    - My notes on class `methods`:
+      - Methods are the behaviors/actions that a class can have, like a `Pet` class having the ability to speak or a `Car` class can turn on a vehicle
+    - My notes on File Structures:
+      - _Files_ are the smaller object, the text docs, the images, videos, pdfs, etc. The thing you open on your computer when you click on a "file"
+      - _Directories_ are the folders, where we organize files
+      - A _File Path_ is the notation for where the file "lives" on your computer
+      - Parent and Child are used to refer to rooted information, such as a directory called `Turing` may have directories inside of it called `Mod0` and `Mod1`. In this case the parent directory is Turing and the child directories would be Mod0 and Mod1. There is no limit to nesting - aka you can have multiple parents and children
+    - My notes on Terminal/Command Line:
+      - I use the `.zsh` shell ([bash vs zsh](https://scriptingosx.com/2019/06/moving-to-zsh/))
+      - Commands to practice:
+        - `pwd`: Print Working Directory - or, "Where am I?". This tells you what file path you are currently in
+        - `mkdir <name_your_directory>`: Make Directory; creates a folder in the path you are currently in
+        - `cd`: Change Directory; Move to the root directory if it is `cd` by itself
+        - `cd <directory_name>`: Move into the director your specified if accessible from that path location
+        - `cd ..`: Move back a level; you can nest this to go back multiple levels, for example, if I want to move back two levels I would use `cd ../..`
+        - `ls`: List Directory - lists the contents of the directory your are in
+        - `touch <file_name.filetype>`: Make a File
+        - `cat`: Shows the contents of a file inside the terminal instead of opening it separately
+        - `rm <file_name.filetype`: Remove a file
+        - `rm -rf <directory_name>`: Remove a directory and all its contents
+    - My notes on Git/Version Control
+      - Version control is important because it lets us go back to previously working code or previous feature code; allows us to break our work into chunks that are accessible on different versions; work collaboratively inside group projects without overwriting other peoples work or breaking the code (or at least recognizing the break comes from the new code you are merging in); access to branches; access to tracking who made changes and when
+      - Imagine you are working on a feature to add to a working product. You complete your work and you upload the information and now your product has a new feature. But... what if you have multiple people working on that new feature, perhaps all in the same file you are working in. Imagine 1000 people working on that same file. How do you ensure everyones work is tracked and accounted for? How do you ensure code isn't overwritten or destroyed? Version Control (and looking ahead, Continuous Integration) are resources that help us work on teams in effective ways
+      - Commands to know:
+        - `git init`: Initialize an empty git repository; this allows tracking to happen
+        - `git clone <git_repository_information>`: This allows you to clone a git repository from "elsewhere" (GitHub is a common location to grab git initialized projects) onto your local computer; it will continue to track on your local as well
+        - `git status`: let's you see what is being tracked by git; you may see untracked files or files added but not committed
+        - `git add <file_name.filetype>`: Add a file to track in the "staging area"
+        - `git add .`: Adds all files in untracked to tracked in the "staging area"
+        - `git commit`: This allows you to write a commit message for the file(s) you have tracked; By itself, this command opens `Vim` world on the Terminal OR if you have setup your IDE and git configurations, it opens a similar file to the Vim editor in your IDE
+          - While the Vim editor is easy enough to use, for beginners, I suggest getting comfortable with the command **below** before exploring the world of in-depth git commit messages
+        - `git commit -m "<subject>"`: This is the commit message that let's us take the file(s) we added to our "staging area" and officially saving it to our version controlled repository; Think of this as a "snapshot in time" OR a "love letter to yourself/future-self/other-developers". These are notes that you can read to understand why code was added/updated/mutated/destroyed/etc. Remember to be clear and succinct - and always remember this is live information that may be visible to any and all. Leave a beautiful trail for others or your future self.
+          - Example, a commit message of "Bug fixed" is... lacking. What about "Update product model for bug fix - changed attribute "height" from integer to float". Now we see that a bug fix happened and it most likely occurred because we needed access to decimal values. We could even go one step further and use the subject/body concept that many developers use:
+            ```console
+            Update product model for bug fix - changed attribute "height" from integer to float
+
+            - While running test for calculating height dynamically, discovered a break in the code as I input float values versus integer values
+            - Simple fix: change attribute datatype to Integer instead of Float
+            - To ensure this bug is fixed, also added additional tests that test this feature using Floats instead of Integers
+            ```
+        - `git diff`: See the changes made to a file in comparison to the last saved version in the git repository
+        - `git pull origin <branch_name>`: Grab the objects and refs from the branch you declared and integrate it within your local branch
+          - This can potentially cause a `git merge` conflict error if your files don't quite match
+        - `git push origin <branch_name>`: This pushes the committed information to the branch on the git repository
+        - `git branch`: Lists the current branch you are on
+        - `git branch -a`: Lists all branches in the git repo
+        - `git checkout <branch_name>`: Move to the branch you named
+        - `git checkout -b <new_branch_name>`: Create a new branch and move to it
+    - My notes on
 - [X] [Session 3](https://mod0.turing.io/session3/) and its [homework](https://gist.github.com/ericweissman/92594fbd254208c2922443fdd21d6ba5)
   - This covered:
     - Practicing shortcuts in Terminal and Atom
