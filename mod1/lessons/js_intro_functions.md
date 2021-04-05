@@ -47,12 +47,50 @@
 
 ## My Notes
 - Learning Goals
+  - Be able to declare functionws with and without parameters
+  - Understand how to call functions with and without arguments
+  - Make function expressions evaluate to something other than `undefined` using `return`
+  - Understand and use operators and conditionals
 - Vocabulary
-- Anatomy of a Function
-- Invoke a Function
-- Passing Information to a Function
+  - `Function`: A predefined and reusable group of behavior
+  - `Declare/Define`: The initial writing of a function
+  - `Call/Invoke`: Running a function
+  - `Parameters`: The variables declared when a function is declared/defined
+  - `Arguments`: The variables passed to a function when it's called/invoked
+- Anatomy of a Function/Invoking a Function/Passing Information to a Function
+  - Functions are reusable blocks of code that group statements together to perform a specific task
+  - Functions need a name, they can take parameters if needed using parenthesis, and then we use curly brackets to define where the statement for that function go
+  - Typically, functions are named using action verbs
+  - Function naming is camelCase
+  - JS keyword to define a function is `function`
+    ```js
+    // Function without parameteres
+    function makePizza() {
+      var firstStatement = 'Pizza is AMAZING!';
+      var pizza = "pepperoni";
+      var secondStatement = "I love " + pizza + " pizza!";
+
+      console.log(secondStatement);
+      alert(firstStatement);
+    }
+    // Example of calling this function
+    makePizza();
+    ```
+  - In the above example, the console will print "I love pepperoni pizza!" while the browser will display a pop up alert that says "Pizza is AMAZING!"
+    ```js
+    // Function with parameters
+    function bakeCake(flavor, frosting, decoration) {
+      return `I am baking a ${flavor} cake with ${frosting}. It will be decorated with ${decoration}.`
+    }
+    // Example of calling this function
+    bakeCake("carrot", "cream cheese icing", "walnuts");
+    ```
+  - The second example will simply console print "I am baking a carrot cake with cream cheese icing. It will be decorated with walnuts."
 - Parameters vs. Arguments
-- Getting a Value from a Function
+  - **Parameter**: The stipulated values that are declared in the function parenthesis location
+  - **Argument**: The passed information when calling a function
+  - Looking at the `bakeCake` function above: `(flavor, frosting, decoration)` are parameters, while `("carrot", "cream cheese icing", "walnuts")` are arguments
+- Getting a Value from a Function BLARG BLARG BLARG BLARG
 - The Return Statement
 - Basic Conditional Structure
 - ES5 vs ES6 Functions
