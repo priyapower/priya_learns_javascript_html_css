@@ -11,6 +11,7 @@
 ## Week 1
 - [X] [JS: Data types and variables](https://frontend.turing.io/lessons/module-1/js-data-types-variables.html); see my notes [here](lessons/js_data_variables.md)
 - [ ] [JS: Intro to Functions](https://frontend.turing.io/lessons/module-1/js-intro-to-functions.html)
+  - [ ] The **pre-work** for the above lesson [JS: Statements, Expressions, and Operators](https://frontend.turing.io/lessons/module-1/js-statements-and-expressions.html)
 - [ ] [JS: Object Literals](https://frontend.turing.io/lessons/module-1/js-object-literals.html)
 - [ ] [Project #1 - Fun at the Library](https://frontend.turing.io/projects/module-1/library.html)
 - [ ] [Alt Project #1 - Fun at a Restaurant](https://frontend.turing.io/projects/module-1/restaurant.html)
@@ -58,7 +59,6 @@
 - [ ] [Project #5 - Tic Tac Toe](https://frontend.turing.io/projects/module-1/tic-tac-toe-solo.html)
 - [ ] [Alt Project #5 - Rock Paper Scissors](https://frontend.turing.io/projects/module-1/rock-paper-scissors-solo.html)
 ## Week 6/Extra Lessons
-- [ ] [JS: Statements, Expressions, and Operators](https://frontend.turing.io/lessons/module-1/js-statements-and-expressions.html)
 - [ ] [JS: Playground](https://frontend.turing.io/lessons/module-1/javascript-playground.html)
 - [ ] [JS: Workshop Day 1](https://frontend.turing.io/lessons/module-1/javascript-workshop-1.html)
 - [ ] [JS: Workshop Day 2](https://frontend.turing.io/lessons/module-1/javascript-workshop-2.html)
